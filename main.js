@@ -4,7 +4,7 @@ function_toca_som(idElementoAudio){
 
 const listadeteclas = document.querySelectorAll(".tecla");
 
-led contador = 0;
+let contador = 0;
 while(contador < listadeteclas.length){
     const efeito = listadeteclas[contador].classList[1];
     const idAudio = "#som_"+efeito;
