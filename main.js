@@ -10,7 +10,7 @@ while(contador < listadeteclas.length){
     const idAudio = "#som_"+efeito;
     listadeteclas[contador].onclick = function(){
         tocasom (idAudio)
-    }
-    contador = contador + 1;
-    console .log(contador);
+}
+contador = contador + 1;
+console .log(contador);
 }
